@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  width: 100%;
+  font-family: "Saira Semi Condensed", sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+.sp-font{
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px;
+}
+@media (max-width: 468px) {
+  .slide-content h3 {
+    .sp-font{
+      font-size: 20px;
+    }
+  }
+}
